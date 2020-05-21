@@ -1,0 +1,93 @@
+body{
+	background-color: #ECB390;
+	margin=0;
+	padding=0;
+}
+.jumbotron-fluid{
+background-color: #FFE9C5;
+}
+
+.logo{
+position: relative;
+
+}
+.display-4{
+color: #DF7861;
+}
+.col{
+color: #D63447;
+font-family: 'Baloo 2', cursive;
+}
+#menu {
+	background-color:#FFE9C5;;
+
+	width: 100%;
+	padding:0px;
+}
+.navbar navbar-expand-lg navbar-dark bg-danger{
+	position:fixed;
+	top:0;
+	overflow:hidden;
+}
+.list-group list-group-horizontal-sm{
+	align:center;
+}
+#connect{
+	background-color:#FFE9C5;;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.row row-cols-1 row-cols-sm-2 row-cols-md-4{
+	padding:50px;
+}
+.social a{
+	font-size:4.5em;
+	padding: 3rem;
+}
+.fa fa-facebook-square{
+	color:#3B5998;;
+	font-size:64px;
+}
+.fa-twitter{
+	color: #00aced;;
+}
+.fa-instagram{
+	color: #517fa4;;
+}
+.fa-whatsapp{
+	color: #4fce5d;;
+}
+.fa-facebook-square :hover,
+.fa-twitter:hover,
+.fa-whatsapp:hover,
+.fa-instagram:hover{
+	color:#D5D5D5;;
+}
+@media only screen and (max-width:1500px){
+	.carousel-caption h1{
+		font-size:110px;
+}
+}
+@media only screen and (max-width:1199px){
+	.carousel-caption h1{
+		font-size:75px;
+}
+}
+@media only screen and (max-width:570px){
+	.carousel-caption h1{
+	font-size:40px;
+}
+.carousel-caption h2{
+	font-size:20px;
+}
+}
+.best{
+	background-color:#FD5E53;
+	color:white;
+	font-family: 'Baloo 2', cursive;
+}
+.display-6{
+	font-family:  'Lobster', cursive;
+	color:white;
+	font-size:64px;
+}
